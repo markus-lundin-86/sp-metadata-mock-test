@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://sp-accsak.nordicmedtest.se/saml05">
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol urn:oasis:names:tc:SAML:1.1:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>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</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>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</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sp-accsak.nordicmedtest.se/simplesaml/module.php/saml/sp/saml2-logout.php/saml05"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sp-accsak.nordicmedtest.se/simplesaml/module.php/saml/sp/saml2-acs.php/saml05" index="0"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:1.0:profiles:browser-post" Location="https://sp-accsak.nordicmedtest.se/simplesaml/module.php/saml/sp/saml1-acs.php/saml05" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://sp-accsak.nordicmedtest.se/simplesaml/module.php/saml/sp/saml2-acs.php/saml05" index="2"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:1.0:profiles:artifact-01" Location="https://sp-accsak.nordicmedtest.se/simplesaml/module.php/saml/sp/saml1-acs.php/saml05/artifact" index="3"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="en">Test-SP SAML05</md:ServiceName>
+      <md:RequestedAttribute Name="1" FriendlyName="AttributeConsumingServiceIndex"/>
+      <md:RequestedAttribute Name="http://sambi.se/attributes/1/employeeHsaId" FriendlyName="employeeHsaId"/>
+      <md:RequestedAttribute Name="http://sambi.se/attributes/1/givenName" FriendlyName="givenName"/>
+      <md:RequestedAttribute Name="http://sambi.se/attributes/1/groupPrescriptionCode" FriendlyName="groupPrescriptionCode"/>
+      <md:RequestedAttribute Name="http://sambi.se/attributes/1/healthcareProfessionalLicense" FriendlyName="healthcareProfessionalLicense"/>
+      <md:RequestedAttribute Name="http://sambi.se/attributes/1/healthcareProfessionalLicenseIdentityNumber" FriendlyName="healthcareProfessionalLicenseIdentityNumber"/>
+      <md:RequestedAttribute Name="http://sambi.se/attributes/1/healthCareProfessionalLicenceSpeciality" FriendlyName="healthCareProfessionalLicenceSpeciality"/>
+      <md:RequestedAttribute Name="http://sambi.se/attributes/1/mail" FriendlyName="mail"/>
+      <md:RequestedAttribute Name="http://sambi.se/attributes/1/mobileTelephoneNumber" FriendlyName="mobileTelephoneNumber"/>
+      <md:RequestedAttribute Name="http://sambi.se/attributes/1/occupationalCode" FriendlyName="occupationalCode"/>
+      <md:RequestedAttribute Name="http://sambi.se/attributes/1/paTitleCode" FriendlyName="paTitleCode"/>
+      <md:RequestedAttribute Name="http://sambi.se/attributes/1/personalIdentityNumber" FriendlyName="personalIdentityNumber"/>
+      <md:RequestedAttribute Name="http://sambi.se/attributes/1/personalPrescriptionCode" FriendlyName="personalPrescriptionCode"/>
+      <md:RequestedAttribute Name="http://sambi.se/attributes/1/surname" FriendlyName="surname"/>
+      <md:RequestedAttribute Name="http://sambi.se/attributes/1/systemRole" FriendlyName="systemRole"/>
+      <md:RequestedAttribute Name="http://sambi.se/attributes/1/telephoneNumber" FriendlyName="telephoneNumber"/>
+      <md:RequestedAttribute Name="urn:sambi:names:attribute:x509IssuerName" FriendlyName="x509IssuerName"/>
+      <md:RequestedAttribute Name="urn:credential:givenName" FriendlyName="credentialGivenName"/>
+      <md:RequestedAttribute Name="urn:credential:surname" FriendlyName="credentialSurname"/>
+      <md:RequestedAttribute Name="urn:credential:personalIdentityNumber" FriendlyName="credentialPersonalIdentityNumber"/>
+      <md:RequestedAttribute Name="urn:credential:displayName" FriendlyName="credentialDisplayName"/>
+      <md:RequestedAttribute Name="urn:credential:organizationName" FriendlyName="credentialOrganizationName"/>
+      <md:RequestedAttribute Name="urn:credential:certificatePolicies" FriendlyName="credentialCertificatePolicies"/>
+      <md:RequestedAttribute Name="http://sambi.se/attributes/1/pharmacyIdentifier" FriendlyName="pharmacyIdentifier"/>
+      <md:RequestedAttribute Name="urn:allCommissions" FriendlyName="allCommissions"/>
+      <md:RequestedAttribute Name="urn:allEmployeeHsaIds" FriendlyName="allEmployeeHsaIds"/>
+      <md:RequestedAttribute Name="urn:identityProviderForSign" FriendlyName="identityProviderForSign"/>
+      <md:RequestedAttribute Name="urn:orgAffiliation" FriendlyName="orgAffiliation"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">Nordic Medtest AB</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Nordic Medtest</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.nordicmedtest.se</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="support">
+    <md:Company>Example Inc.</md:Company>
+    <md:GivenName>John</md:GivenName>
+    <md:SurName>Doe</md:SurName>
+    <md:EmailAddress>support@example.org</md:EmailAddress>
+    <md:TelephoneNumber>+31(0)12345678</md:TelephoneNumber>
+  </md:ContactPerson>
+  <md:ContactPerson contactType="technical">
+    <md:GivenName>Markus</md:GivenName>
+    <md:SurName>Lundin</md:SurName>
+    <md:EmailAddress>mailexample@nordicmedtest.se</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>
