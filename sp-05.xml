@@ -67,6 +67,6 @@
   <md:ContactPerson contactType="technical">
     <md:GivenName>Markus</md:GivenName>
     <md:SurName>Lundin</md:SurName>
-    <md:EmailAddress>mailexample@nordicmedtest.se</md:EmailAddress>
+    <md:EmailAddress>mailexampleupdate@nordicmedtest.se</md:EmailAddress>
   </md:ContactPerson>
 </md:EntityDescriptor>
