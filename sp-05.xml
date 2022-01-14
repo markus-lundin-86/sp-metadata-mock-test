@@ -22,7 +22,7 @@
     <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:1.0:profiles:artifact-01" Location="https://sp-accsak.nordicmedtest.se/simplesaml/module.php/saml/sp/saml1-acs.php/saml05/artifact" index="3"/>
     <md:AttributeConsumingService index="0">
       <md:ServiceName xml:lang="en">Test-SP SAML05</md:ServiceName>
-	  <md:RequestedAttribute Name="loa" FriendlyName="urn:sambi:names:attribute:levelOfAssurance"/>
+	  <md:RequestedAttribute FriendlyName="levelOfAssurance" Name="urn:sambi:names:attribute:levelOfAssurance"/>
       <md:RequestedAttribute Name="1" FriendlyName="AttributeConsumingServiceIndex"/>
       <md:RequestedAttribute Name="http://sambi.se/attributes/1/employeeHsaId" FriendlyName="employeeHsaId"/>
       <md:RequestedAttribute Name="http://sambi.se/attributes/1/givenName" FriendlyName="givenName"/>
